@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap);
+*{
+    background-color: #d5d6d6;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: px;
+    line-height: 150%;
+
+}
+
+.LogoAlura{
+    margin-left: 40px;
+    padding-top: 40px;
+    width: 6%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    margin-bottom: 300px;
+    text-transform: lowercase;
+    font-size: 32px;
+    padding-left: 240px;
+    
+}
+
+::placeholder {color: #0A3871;}
+    .text-area:focus{
+        outline: none;
+    }
+
+.mensagem{
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    background-image: url(/assets/boneco.pn);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 50px;
+    color: #0A3871;
+    margin-left: 75px;
+    margin-top: 0px;
+    position: fixed;
+    font-size: 32px;
+    padding: 20px 10px 450px 20px;
+}
+.mensagem_mensagemRecebida{
+    background-color: transparent;
+    line-height: 10px;
+    color: #0A3871;
+    font-size: 32px;
+    border: none;
+    padding-top: 15px;
+    
+;
+
+}
+
+.mensagem_mensagemRecebida:focus {
+    outline: none;
+}
+
+.mensagem_imgMensagem{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    background-color: transparent;
+    width: 50%;
+    height: 50%;
+    
+}
+
+.botoes{
+    display: flex;
+    margin-top: 18px;
+    margin-left: 240px;
+}
+
+
+
+.btn-encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    font-size: 32px;
+}
+
+.btn-encriptar:hover {
+    opacity: 0.8;
+    
+}
+
+.btn-desencriptar{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    font-size: 32px;
+}
+
+.btn-desencriptar:hover {
+    opacity: 0.8;
+}
+
+.btn-copiar{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 200px;
+    margin-top: 665px;
+    width: 336px;
+    position: absolute;
+    font-size: 32px;
+}
+
+.btn-copiar:hover {
+    opacity: 0.8;
+}
+
+.informacao{
+    color: #495057;
+    font-size: 18px;
+    margin-left: 240px;
+}
